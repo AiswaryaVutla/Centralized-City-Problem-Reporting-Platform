@@ -136,31 +136,31 @@ The backend exposes RESTful APIs for:
 ## INSTALLATION
 
 Clone the repository:
-    git clone https://github.com/AiswaryaVutla/Centralized-City-Problem-Reporting-Platform.git
+   - git clone https://github.com/AiswaryaVutla/Centralized-City-Problem-Reporting-Platform.git
 
 Navigate to the project:
-    cd Centralized-City-Problem-Reporting-Platform
+   - cd Centralized-City-Problem-Reporting-Platform
 
 Install Backend Dependencies:
-    cd backend
-    npm install
+   - cd backend
+   - npm install
 
 Install Frontend Dependencies
-    cd backend
-    npm install
+   - cd backend
+   - npm install
 
 Configure Database:
-    Create a MySQL database.
-    Import the provided init.sql file.
-    Update database credentials in the backend .env file.
+   - Create a MySQL database.
+   - Import the provided init.sql file.
+   - Update database credentials in the backend .env file.
 
 Start Backend:
-    cd backend
-    npm start
+   - cd backend
+   - npm start
 
 Start Frontend:
-    cd frontend
-    npm run dev
+   - cd frontend
+   - npm run dev
 
 
 ## SCREENSHOTS
@@ -188,40 +188,40 @@ Start Frontend:
 
 ## FUTURE ENHANCEMENTS
 
-Email & SMS Notifications
-Real-Time Complaint Tracking
-Interactive GIS Map Integration
-AI-Based Complaint Categorization
-Complaint Priority Prediction
-Mobile Application Support
-Analytics Dashboard for Authorities
-Multi-Language Support
+- Email & SMS Notifications
+- Real-Time Complaint Tracking
+- Interactive GIS Map Integration
+- AI-Based Complaint Categorization
+- Complaint Priority Prediction
+- Mobile Application Support
+- Analytics Dashboard for Authorities
+- Multi-Language Support
 
 
 ## LEARNING OUTCOMES
 
 This project strengthened practical knowledge in:
 
-Full Stack Web Development
-React.js
-Node.js
-Express.js
-MySQL
-RESTful API Development
-CRUD Operations
-Authentication & Authorization
-Image Upload Handling
-Database Design
-Client–Server Architecture
-Git & GitHub
+- Full Stack Web Development
+- React.js
+- Node.js
+- Express.js
+- MySQL
+- RESTful API Development
+- CRUD Operations
+- Authentication & Authorization
+- Image Upload Handling
+- Database Design
+- Client–Server Architecture
+- Git & GitHub
 
 
 ## AUTHOR
 
 Aiswarya Vutla
 
-LinkedIn: https://www.linkedin.com/in/aiswarya-vutla1808/
-GitHub: https://github.com/AiswaryaVutla
+- LinkedIn: https://www.linkedin.com/in/aiswarya-vutla1808/
+- GitHub: https://github.com/AiswaryaVutla
 
 
 ## LICENSE
