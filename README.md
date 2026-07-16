@@ -70,25 +70,25 @@ Citizen / Admin / Worker
 
 ## PROJECT STRUCTURE
 Centralized-City-Problem-Reporting-Platform
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   │   ├── assets
-│   │   ├── context
-│   │   ├── pages
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── package.json
-│   └── vite.config.js
-│
-├── backend
-│   ├── server.js
-│   ├── init.sql
-│   ├── package.json
-│   └── uploads
-│
-└── README.md
+-│
+-├── frontend
+-│   ├── public
+-│   ├── src
+-│   │   ├── assets
+-│   │   ├── context
+-│   │   ├── pages
+-│   │   ├── App.jsx
+-│   │   └── main.jsx
+-│   ├── package.json
+-│   └── vite.config.js
+-│
+-├── backend
+-│   ├── server.js
+-│   ├── init.sql
+-│   ├── package.json
+-│   └── uploads
+-│
+-└── README.md
 
 ## WORKFLOW
 - Citizens register and log in.
@@ -115,23 +115,23 @@ The database is designed using relational tables with foreign key relationships 
 ## ROLE-BASED ACCESS CONTROL
 The application implements role-based authentication with separate dashboards for:
 
-Citizen
-Administrator
-Worker
+- Citizen
+- Administrator
+- Worker
 
 Each role has access only to the functionalities relevant to their responsibilities.
 
 ## REST API FEATURES
 The backend exposes RESTful APIs for:
 
-User Authentication
-Complaint Registration
-Complaint Assignment
-Complaint Tracking
-Status Updates
-Image Upload
-Announcement Management
-Feedback & Ratings
+- User Authentication
+- Complaint Registration
+- Complaint Assignment
+- Complaint Tracking
+- Status Updates
+- Image Upload
+- Announcement Management
+- Feedback & Ratings
 
 ## INSTALLATION
 
