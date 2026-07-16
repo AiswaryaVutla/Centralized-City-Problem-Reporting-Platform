@@ -136,13 +136,13 @@ The backend exposes RESTful APIs for:
 ## INSTALLATION
 
 Clone the repository:
-   - git clone https://github.com/AiswaryaVutla/Centralized-City-Problem-Reporting-Platform.git
+   - <pre> ```bash git clone https://github.com/AiswaryaVutla/Centralized-City-Problem-Reporting-Platform.git ``` </pre>
 
 Navigate to the project:
    - cd Centralized-City-Problem-Reporting-Platform
 
 Install Backend Dependencies:
-   - cd backend
+   - cd frontend
    - npm install
 
 Install Frontend Dependencies
