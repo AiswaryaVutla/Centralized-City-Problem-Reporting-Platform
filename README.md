@@ -2,56 +2,57 @@
 
 A Full-Stack Municipal Complaint Management System developed to simplify the process of reporting, managing, and resolving civic issues. The platform enables citizens to submit complaints, administrators to assign tasks, and workers to update complaint statuses through dedicated role-based dashboards.
 
-## PROJECT OVERVIEW
+## 📌 PROJECT OVERVIEW
 
 The Centralized City Problem Reporting Platform is designed to bridge the communication gap between citizens and municipal authorities. Citizens can report civic issues such as potholes, drainage problems, garbage collection, water supply issues, and streetlight failures with image evidence. Administrators efficiently assign complaints to workers, monitor progress, publish announcements, and analyze citizen feedback, while workers update complaint resolution statuses in real time.
 
 ## KEY FEATURES
 
-### Citizen Module:
-User Registration & Login
-Raise Public and Private Complaints
-Upload Complaint Images
-Track Complaint Status
-View Municipal Announcements
-Submit Feedback & Ratings after complaint resolution
+###  CITIZEN MODULE
+
+- User Registration & Login
+- Raise Public and Private Complaints
+- Upload Complaint Images
+- Track Complaint Status
+- View Municipal Announcements
+- Submit Feedback & Ratings
 
 ### Administrator Module:
-Secure Login
-View and Manage Complaints
-Assign Complaints to Workers
-Update Complaint Status
-Publish Public Announcements
-Monitor Citizen Feedback & Ratings
+- Secure Login
+- View and Manage Complaints
+- Assign Complaints to Workers
+- Update Complaint Status
+- Publish Public Announcements
+- Monitor Citizen Feedback & Ratings
 
 ### Worker Module:
-Login Dashboard
-View Assigned Complaints
-Update Complaint Progress
-Mark Complaints as Completed
+- Login Dashboard
+- View Assigned Complaints
+- Update Complaint Progress
+- Mark Complaints as Completed
 
 ## TECH STACK
 ### FRONTEND:
-  React.js
-  JavaScript (ES6+)
-  HTML5
-  CSS3
-  Axios
-  React Router
-  Vite
+ - React.js
+ - JavaScript (ES6+)
+ - HTML5
+ - CSS3
+ - Axios
+ - React Router
+ - Vite
 ### BACKEND:
-  Node.js
-  Express.js
-  RESTful APIs
-  Multer (Image Upload)
+ - Node.js
+ - Express.js
+ - RESTful APIs
+ - Multer (Image Upload)
 ### DATABASE:
-  MySQL
+ - MySQL
 ### TOOLS & TECHONOLOGIES:
-  Git
-  GitHub
-  VS Code
-  Postman
-  npm
+ - Git
+ - GitHub
+ - VS Code
+ - Postman
+ - npm
 
 ## SYSTEM ARCHITECTURE
 Citizen / Admin / Worker
@@ -90,24 +91,24 @@ Centralized-City-Problem-Reporting-Platform
 └── README.md
 
 ## WORKFLOW
-Citizens register and log in.
-Complaints are submitted with category, description, and optional image.
-Administrators review complaints and assign them to workers.
-Workers update complaint progress and resolution status.
-Citizens monitor complaint progress.
-After resolution, citizens provide feedback and ratings.
-Administrators monitor overall complaint performance and service quality.
+- Citizens register and log in.
+- Complaints are submitted with category, description, and optional image.
+- Administrators review complaints and assign them to workers.
+- Workers update complaint progress and resolution status.
+- Citizens monitor complaint progress.
+- After resolution, citizens provide feedback and ratings.
+- Administrators monitor overall complaint performance and service quality.
 
 ## DATABASE
-The system uses MySQL as the relational database.
+- The system uses MySQL as the relational database.
 
 Major entities include:
-Users
-Complaints
-Workers
-Announcements
-Feedback
-Ratings
+- Users
+- Complaints
+- Workers
+- Announcements
+- Feedback
+- Ratings
 
 The database is designed using relational tables with foreign key relationships to maintain data consistency and support efficient CRUD operations.
 
