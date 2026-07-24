@@ -1,108 +1,137 @@
-#  CENTRALIZED CITY PROBLEM REPORTING PLATFORM
+# 🚀 Centralized City Problem Reporting Platform
 
-A Full-Stack Municipal Complaint Management System developed to simplify the process of reporting, managing, and resolving civic issues. The platform enables citizens to submit complaints, administrators to assign tasks, and workers to update complaint statuses through dedicated role-based dashboards.
+The **Centralized City Problem Reporting Platform** is a Full-Stack Municipal Complaint Management System developed to streamline the process of reporting, managing, and resolving civic issues. The platform connects citizens, municipal administrators, and field workers through dedicated role-based dashboards, enabling efficient communication and transparent complaint resolution.
 
-## 📌 PROJECT OVERVIEW
+Built using **React.js, Node.js, Express.js, and MySQL**, the application demonstrates practical implementation of full-stack development concepts, including authentication, RESTful API development, image uploads, role-based authorization, database management, and seamless frontend-backend integration.
 
-The Centralized City Problem Reporting Platform is designed to bridge the communication gap between citizens and municipal authorities. Citizens can report civic issues such as potholes, drainage problems, garbage collection, water supply issues, and streetlight failures with image evidence. Administrators efficiently assign complaints to workers, monitor progress, publish announcements, and analyze citizen feedback, while workers update complaint resolution statuses in real time.
+---
 
-## KEY FEATURES
+## ✨ Features
 
-###  CITIZEN MODULE
+### 👤 Citizen Module
 
-- User Registration & Login
+- Secure User Registration & Login
 - Raise Public and Private Complaints
 - Upload Complaint Images
 - Track Complaint Status
 - View Municipal Announcements
 - Submit Feedback & Ratings
 
-### Administrator Module:
-- Secure Login
+### 🛡️ Administrator Module
+
+- Secure Administrator Login
 - View and Manage Complaints
 - Assign Complaints to Workers
 - Update Complaint Status
 - Publish Public Announcements
 - Monitor Citizen Feedback & Ratings
 
-### Worker Module:
-- Login Dashboard
+### 👷 Worker Module
+
+- Secure Worker Login
 - View Assigned Complaints
 - Update Complaint Progress
-- Mark Complaints as Completed
+- Mark Complaints as Resolved
 
-## TECH STACK
-### FRONTEND:
- - React.js
- - JavaScript (ES6+)
- - HTML5
- - CSS3
- - Axios
- - React Router
- - Vite
-### BACKEND:
- - Node.js
- - Express.js
- - RESTful APIs
- - Multer (Image Upload)
-### DATABASE:
- - MySQL
-### TOOLS & TECHONOLOGIES:
- - Git
- - GitHub
- - VS Code
- - Postman
- - npm
+---
 
-## SYSTEM ARCHITECTURE
-Citizen / Admin / Worker
-            │
-            ▼
-      React.js Frontend
-            │
-         Axios API Calls
-            │
-            ▼
-    Node.js + Express.js
-            │
-            ▼
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Axios
+- React Router
+- Vite
+
+### Backend
+
+- Node.js
+- Express.js
+- RESTful APIs
+- Multer (Image Upload)
+
+### Database
+
+- MySQL
+
+### Tools & Technologies
+
+- Git
+- GitHub
+- VS Code
+- Postman
+- npm
+
+---
+
+## 🏗️ System Architecture
+
+```text
+Citizen / Administrator / Worker
+              │
+              ▼
+        React.js Frontend
+              │
+        Axios API Requests
+              │
+              ▼
+     Node.js + Express.js
+              │
+              ▼
          MySQL Database
+```
 
-## PROJECT STRUCTURE
+---
+
+## 📂 Project Structure
+
+```text
 Centralized-City-Problem-Reporting-Platform
--│
--├── frontend
--│   ├── public
--│   ├── src
--│   │   ├── assets
--│   │   ├── context
--│   │   ├── pages
--│   │   ├── App.jsx
--│   │   └── main.jsx
--│   ├── package.json
--│   └── vite.config.js
--│
--├── backend
--│   ├── server.js
--│   ├── init.sql
--│   ├── package.json
--│   └── uploads
--│
--└── README.md
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── assets
+│   │   ├── context
+│   │   ├── pages
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── package.json
+│   └── vite.config.js
+│
+├── backend
+│   ├── server.js
+│   ├── init.sql
+│   ├── uploads
+│   └── package.json
+│
+└── README.md
+```
 
-## WORKFLOW
-- Citizens register and log in.
-- Complaints are submitted with category, description, and optional image.
-- Administrators review complaints and assign them to workers.
-- Workers update complaint progress and resolution status.
-- Citizens monitor complaint progress.
-- After resolution, citizens provide feedback and ratings.
-- Administrators monitor overall complaint performance and service quality.
+---
 
-## DATABASE
-- The system uses MySQL as the relational database.
+## 🔄 Application Workflow
 
-Major entities include:
+1. Citizens register and log in to the platform.
+2. Submit complaints with category, description, and optional image evidence.
+3. Administrators review and assign complaints to workers.
+4. Workers update complaint progress and resolution status.
+5. Citizens track complaint status in real time.
+6. After resolution, citizens submit feedback and ratings.
+7. Administrators monitor complaint analytics and overall service quality.
+
+---
+
+## 🗄️ Database Design
+
+The application uses **MySQL** as its relational database for secure and efficient data management.
+
+### Major Entities
+
 - Users
 - Complaints
 - Workers
@@ -110,122 +139,183 @@ Major entities include:
 - Feedback
 - Ratings
 
-The database is designed using relational tables with foreign key relationships to maintain data consistency and support efficient CRUD operations.
+The database follows a relational schema with foreign key relationships to maintain data consistency and support efficient CRUD operations.
 
-## ROLE-BASED ACCESS CONTROL
-The application implements role-based authentication with separate dashboards for:
+---
 
-- Citizen
-- Administrator
-- Worker
+## 🔐 Role-Based Access Control
 
-Each role has access only to the functionalities relevant to their responsibilities.
+The platform implements secure role-based authentication with dedicated dashboards for:
 
-## REST API FEATURES
+- 👤 Citizen
+- 🛡️ Administrator
+- 👷 Worker
+
+Each user can access only the functionalities assigned to their respective role.
+
+---
+
+## 🌐 REST API Features
+
 The backend exposes RESTful APIs for:
 
 - User Authentication
 - Complaint Registration
 - Complaint Assignment
 - Complaint Tracking
-- Status Updates
-- Image Upload
+- Complaint Status Updates
+- Image Upload Handling
 - Announcement Management
 - Feedback & Ratings
 
-## INSTALLATION
+---
 
-Clone the repository:
-   - <pre> ```bash git clone https://github.com/AiswaryaVutla/Centralized-City-Problem-Reporting-Platform.git ``` </pre>
+## ⚙️ Getting Started
 
-Navigate to the project:
-   - cd Centralized-City-Problem-Reporting-Platform
+### Clone the Repository
 
-Install Backend Dependencies:
-   - cd frontend
-   - npm install
+```bash
+git clone https://github.com/AiswaryaVutla/Centralized-City-Problem-Reporting-Platform.git
+```
 
-Install Frontend Dependencies
-   - cd backend
-   - npm install
+### Navigate to the Project
 
-Configure Database:
-   - Create a MySQL database.
-   - Import the provided init.sql file.
-   - Update database credentials in the backend .env file.
+```bash
+cd Centralized-City-Problem-Reporting-Platform
+```
 
-Start Backend:
-   - cd backend
-   - npm start
+### Install Backend Dependencies
 
-Start Frontend:
-   - cd frontend
-   - npm run dev
+```bash
+cd backend
+npm install
+```
 
+### Install Frontend Dependencies
 
-## SCREENSHOTS
+```bash
+cd ../frontend
+npm install
+```
 
-### HOME PAGE
+### Configure the Database
 
-<img width="1102" height="610" alt="image" src="https://github.com/user-attachments/assets/8764bc95-3ed7-43a0-9530-fcc1c2e28e45" />
+- Create a MySQL database.
+- Import the provided `init.sql` file.
+- Update database credentials in the backend `.env` file.
 
-### CITIZEN DASHBOARD
+### Start the Backend
 
-<img width="915" height="524" alt="image" src="https://github.com/user-attachments/assets/100cac46-960f-4f8f-81a0-e5bc9a78ea13" />
+```bash
+cd backend
+npm start
+```
 
-### ADMINISTRATOR DASHBOARD
+### Start the Frontend
 
-<img width="912" height="484" alt="image" src="https://github.com/user-attachments/assets/d91d97c2-f2a4-424e-aba7-3dfc8f564832" />
+```bash
+cd frontend
+npm run dev
+```
 
-### WORKER DASHBOARD
+---
 
-<img width="926" height="490" alt="image" src="https://github.com/user-attachments/assets/fd15ed8d-4af7-4c75-97a6-1d948344f110" />
+# 📸 Screenshots
 
-### FEEDBACK & RATING MODULE
+## 🏠 Home Page
 
-<img width="963" height="524" alt="image" src="https://github.com/user-attachments/assets/54f51dc1-5713-4c76-90e8-b42dc9555a5b" />
+<img width="1102" height="610" alt="Home Page" src="https://github.com/user-attachments/assets/8764bc95-3ed7-43a0-9530-fcc1c2e28e45" />
 
+---
 
-## FUTURE ENHANCEMENTS
+## 👤 Citizen Dashboard
+
+<img width="915" height="524" alt="Citizen Dashboard" src="https://github.com/user-attachments/assets/100cac46-960f-4f8f-81a0-e5bc9a78ea13" />
+
+---
+
+## 🛡️ Administrator Dashboard
+
+<img width="912" height="484" alt="Administrator Dashboard" src="https://github.com/user-attachments/assets/d91d97c2-f2a4-424e-aba7-3dfc8f564832" />
+
+---
+
+## 👷 Worker Dashboard
+
+<img width="926" height="490" alt="Worker Dashboard" src="https://github.com/user-attachments/assets/fd15ed8d-4af7-4c75-97a6-1d948344f110" />
+
+---
+
+## ⭐ Feedback & Rating Module
+
+<img width="963" height="524" alt="Feedback & Rating Module" src="https://github.com/user-attachments/assets/54f51dc1-5713-4c76-90e8-b42dc9555a5b" />
+
+---
+
+## 🎯 Key Highlights
+
+- Developed a complete municipal complaint management system with secure role-based access control.
+- Designed and implemented RESTful APIs for complaint management and user authentication.
+- Integrated MySQL for efficient relational database management.
+- Implemented secure image uploads using Multer.
+- Enabled seamless frontend-backend communication using Axios.
+- Built responsive dashboards for citizens, administrators, and workers.
+- Tested backend APIs using Postman.
+- Managed version control using Git and GitHub.
+
+---
+
+## 📖 Learning Outcomes
+
+This project strengthened my understanding of:
+
+- Full-Stack Web Development
+- React.js
+- Node.js
+- Express.js
+- MySQL Database Design
+- RESTful API Development
+- CRUD Operations
+- Authentication & Authorization
+- Image Upload Handling
+- Client–Server Architecture
+- Git & GitHub Workflow
+
+---
+
+## 🔮 Future Enhancements
 
 - Email & SMS Notifications
 - Real-Time Complaint Tracking
 - Interactive GIS Map Integration
 - AI-Based Complaint Categorization
 - Complaint Priority Prediction
-- Mobile Application Support
-- Analytics Dashboard for Authorities
+- Mobile Application
+- Analytics Dashboard
 - Multi-Language Support
 
+---
 
-## LEARNING OUTCOMES
+## 👩‍💻 Author
 
-This project strengthened practical knowledge in:
+**Aiswarya Vutla**
 
-- Full Stack Web Development
-- React.js
-- Node.js
-- Express.js
-- MySQL
-- RESTful API Development
-- CRUD Operations
-- Authentication & Authorization
-- Image Upload Handling
-- Database Design
-- Client–Server Architecture
-- Git & GitHub
+B.Tech – Artificial Intelligence & Machine Learning
 
+📧 **Email:** appuvutla18@gmail.com
 
-## AUTHOR
+🔗 **GitHub:** https://github.com/AiswaryaVutla
 
-Aiswarya Vutla
+💼 **LinkedIn:** https://www.linkedin.com/in/aiswarya-vutla1808/
 
-- LinkedIn: https://www.linkedin.com/in/aiswarya-vutla1808/
-- GitHub: https://github.com/AiswaryaVutla
+---
 
+## ⭐ Support
 
-## LICENSE
+If you found this project useful or interesting, consider giving it a **⭐ Star** on GitHub. Your support motivates me to continue building impactful software solutions.
 
-This project is intended for educational and learning purposes.
+---
 
-  
+## 📄 License
+
+This project is developed for educational and portfolio purposes.
